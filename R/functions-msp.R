@@ -103,6 +103,10 @@ if (FALSE) {
     exactmass <- as.numeric(unname(desc["exactmass"]))
     comments <- unname(desc["comments"])
     ion_mode <- unname(desc["ion_mode"])
+    Collision_energy <- unname(desc["Collision_energy"])
+    Instrument_type <- unname(desc["Instrument_type"])
+    
+    
     
     ## select only values of interest and convert to numeric
     voi <- c("retentiontime", "ionmode", "precursormz")
@@ -121,7 +125,9 @@ if (FALSE) {
          adduct = adduct,
          exactmass = exactmass,
          comments = comments,
-         ion_mode = ion_mode)
+         ion_mode = ion_mode,
+        Collision_energy = Collision_energy,
+        Instrument_type = Instrument_type)
 }
 
 #' @description
