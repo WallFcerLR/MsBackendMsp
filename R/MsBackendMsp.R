@@ -135,7 +135,9 @@ spectraVariableMapping <- function(format = c("msp")) {
            adduct = "PRECURSORTYPE:",
            exactmass = "EXACTMASS:",
            rtime = "RETENTIONTIME:",
-           precursorMz = "PRECURSORMZ:"
+           precursorMz = "PRECURSORMZ:",
+           Instrument_type = "Instrument_type:",
+           Collision_energy = "Collision_energy:"
           
          )
   )
