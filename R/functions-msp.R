@@ -103,8 +103,8 @@ if (FALSE) {
     exactmass <- as.numeric(unname(desc["exactmass"]))
     comments <- unname(desc["comments"])
     ion_mode <- unname(desc["ion_mode"])
-    Collision_energy <- unname(desc["Collision_energy"])
-    Instrument_type <- unname(desc["Instrument_type"])
+    collision_energy <- unname(desc["collision_energy"])
+    instrument_type <- unname(desc["instrument_type"])
     
     
     
@@ -126,8 +126,8 @@ if (FALSE) {
          exactmass = exactmass,
          comments = comments,
          ion_mode = ion_mode,
-        Collision_energy = Collision_energy,
-        Instrument_type = Instrument_type)
+        collision_energy = collision_energy,
+        instrument_type = instrument_type)
 }
 
 #' @description
